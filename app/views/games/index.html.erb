@@ -1,0 +1,11 @@
+<h1>Список игр</h1>
+
+<%= link_to "Создать новую игру", games_path, method: :post %>
+
+<ul>
+  <% @games.each do |game| %>
+    <li>
+      <%= link_to "Игра ##{game.id} (#{game.status})", game_path(game) %>
+    </li>
+  <% end %>
+</ul>
