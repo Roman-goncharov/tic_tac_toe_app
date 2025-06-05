@@ -1,24 +1,28 @@
 # README
+# Tic Tac Toe App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Приложение "Крестики-нолики" на Ruby on Rails.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Описание
 
-* System dependencies
+Это простая игра "Крестики-нолики", реализованная с использованием фреймворка Rails.  
+Пользователи могут создавать новые игры, делать ходы и просматривать статус игры.
 
-* Configuration
+---
 
-* Database creation
+## Технологии
 
-* Database initialization
+- Ruby 3.2.2
+- Rails 8.0.2
+- База данных: SQLite (по умолчанию)
+- Вся логика игры реализована в модели Game
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+## Особенности
 
-* Deployment instructions
-
-* ...
+- Создание и просмотр игр
+- Логика ходов реализована в модели Game
+- В будущем планируется добавить авторизацию и улучшить дизайн
